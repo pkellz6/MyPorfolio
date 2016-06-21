@@ -1,11 +1,14 @@
 // Preloader
 
   $(window).load(function(){
-        $('.loader').fadeOut();    
-        $('#preloader').delay(350).fadeOut('slow');    
-        $('body').delay(350);   
+        $('.loader').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350);
 
     });
+
+
+
 
 // Global document ready function
 
@@ -94,7 +97,7 @@ jQuery(document).ready(function($) {
         zoom: {
             enabled: true,
             duration: 300, // duration of the effect, in milliseconds
-            easing: 'ease-in-out' // CSS transition easing function 
+            easing: 'ease-in-out' // CSS transition easing function
         }
     });
 
@@ -297,6 +300,3 @@ jQuery(document).ready(function($) {
         });
     };
 })(jQuery);
-
-
-
